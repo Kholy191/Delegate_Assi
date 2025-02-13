@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -52,6 +54,20 @@
 
             //LibraryEngine.ProcessBooks(books, GetISBN);
 
+
+            #endregion
+
+            #region Q (d) Lambda Expression (GetPublicationDate).
+
+            //List<Book> books = new List<Book>();
+            //books.Add(new Book(
+            //        isbn: "71",
+            //        title: "Numbers",
+            //        authors: new string[] { "Ahmed", "Mahmoud" },
+            //        publicationDate: new DateTime(2010, 11, 22),
+            //        price: 233
+            //        ));
+            //LibraryEngine.ProcessBooks(books, X => X.PublicationDate.ToString());
 
             #endregion
 
