@@ -42,4 +42,26 @@ namespace Assignment
     //}
 
     #endregion
+
+    #region Q (c) Anonymous Method (GetISBN). (Same Class For (b))
+
+    //public class LibraryEngine
+    //{
+    //    public static void ProcessBooks(List<Book> blist, Func<Book, string> fPtr)
+    //    {
+    //        if (blist.Count > 0 && fPtr is not null)
+    //        {
+    //            foreach (Book B in blist)
+    //            {
+    //                Console.WriteLine(fPtr(B));
+    //            }
+    //        }
+    //    }
+    //}
+
+    #endregion
+
+
+
+
 }
